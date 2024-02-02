@@ -1,0 +1,32 @@
+.ReceivedFile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 22%;
+    background-color: #2a2d4f;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #a6a6a6;
+}
+
+.file {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Align buttons to the left */
+    width: 80%;
+}
+
+.file button {
+    background-color: #5271ff;
+    color: white;
+    border-radius: 20px;
+    height: 20px;
+    width: 80px;
+    margin-right: 8px; /* Add space between buttons */
+    font-weight: 600;
+    cursor: pointer;
+}

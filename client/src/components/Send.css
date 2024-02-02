@@ -1,0 +1,112 @@
+.Send {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 525px;
+    border-radius: 30px;
+    background-color: #1c2138;
+    margin-top: 20px;
+}
+
+.addressTo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 10%;
+}
+
+.addressTo input {
+    background-color: #2a2d4f;
+    width: 87%;
+    height: 20px;
+    color: white;
+}
+
+.uploadButton {
+    margin-top: 20px;
+    margin-left: 10%;
+    background-color: #5271ff;
+    color: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.uploaded {
+    margin-left: 10%;
+    font-size: large;
+    color: #a6a6a6;
+}
+
+.submit hr {
+    width: 80%;
+}
+
+.submit p {
+    color: #a6a6a6;
+    margin-left: 10%;
+}
+
+.removeButton {
+    background-color: #4b4646; /* Red color for remove button */
+    color: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 50px; /* Adjust margin as needed */
+}
+
+.uploadProcess {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.sendButton {
+    background-color: #1c2138;
+    color: white;
+    border-color: white;
+    border-radius: 20px;
+    height: 60px;
+    width: 150px;
+    font-weight: 600;
+    font-size: large;
+    cursor: pointer;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 30px;
+}
+
+.uploadedFile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.loadingPopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.loadingPopup button {
+    cursor: pointer;
+}

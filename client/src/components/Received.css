@@ -1,0 +1,65 @@
+.Received {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 525px;
+    border-radius: 30px;
+    background-color: #1c2138;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.file {
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+}
+
+.file div {
+    white-space: nowrap; /* Prevent line breaks */
+    text-overflow: ellipsis; /* Display ellipsis (...) for overflow */
+}
+
+.Received h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.Received p {
+    color: #a6a6a6;
+    font-size: 20px;
+}
+
+.ant-pagination {
+    margin-top: auto; /* Push the pagination to the bottom */
+    text-align: center; /* Center the pagination */
+}
+
+.ant-pagination-item {
+    background: #1c2138; /* Background color of pagination items */
+    border-color: #1c2138; /* Border color of pagination items */
+}
+
+.ant-pagination-item-active {
+    background: #1890ff; /* Background color of the active pagination item */
+    border-color: #1890ff; /* Border color of the active pagination item */
+}
+
+.receivedFiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.receivedFiles button {
+    background: #1c2138; /* Background color of pagination items */
+    border-color: #1c2138; /* Border color of pagination items */
+    color: white;
+    font-size: 10px;
+    font-weight: bolder;
+    margin: 0 10px;
+    height: 10%;
+}

@@ -1,0 +1,103 @@
+.Page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    position: relative; /* Add position relative */
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the transparency as needed */
+    z-index: 1000;
+    display: none;
+}
+
+/* Add the following class to make the overlay visible */
+.Page.loading .overlay {
+    display: block;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100px;
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: 40px;
+    color: #ff0099;
+    text-shadow: 0 0 7px #ff0099, 0 0 5px #ff0099, 0 0 1px #ff0099;
+    margin: 50px;
+}
+
+.firstLayer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.information p {
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: 54px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Glacial Indifference", sans-serif;
+}
+
+.secondLayer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.secondLayer p {
+    color: white;
+    font-size: 20px;
+}
+
+.secondLayer button {
+    background-color: #5271ff;
+    color: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+    margin-right: 24.6%;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.thirdLayer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 13%;
+    margin-bottom: 154px;
+}

@@ -1,0 +1,25 @@
+.Account {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+  width: 450px;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #ff5757, #8c52ff);
+}
+
+.ethIcon img {
+  height: 50px;
+  width: 50px;
+  margin: 5%;
+}
+
+.wallet {
+  margin: 3%;
+}
+.ethereum {
+  margin: 3%;
+  font-size: x-large;
+  font-weight: bold;
+  color: white;
+}
