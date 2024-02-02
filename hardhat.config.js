@@ -6,9 +6,7 @@ module.exports = {
     networks: {
         sepolia: {
             url: "https://rpc.sepolia.org",
-            accounts: [
-                "976228d5aaa3a103bc6b8b519a0a61561b68da3e9fc941ff35303d046e251300",
-            ],
+            accounts: ["YOUR_ACCOUNT_PRIVATE_KEY"],
         },
     },
     paths: {
